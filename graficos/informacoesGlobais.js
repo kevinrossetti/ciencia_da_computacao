@@ -1,4 +1,4 @@
-async (paragrafo) = {
+async (paragrafo); {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
     
     async function vizualizarInformacoesGlobais() {
@@ -17,7 +17,6 @@ async (paragrafo) = {
     
         const container = document.getElementById('graficos-container')
         container.appendChild(paragrafo)
-    }
-    
-    vizualizarInformacoesGlobais()
 }
+    vizualizarInformacoesGlobais()
+    }
